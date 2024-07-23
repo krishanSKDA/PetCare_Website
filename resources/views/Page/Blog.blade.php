@@ -33,6 +33,7 @@
         </div>
         <!-- Hero Area End -->
         <!--================Blog Area =================-->
+
         <section class="blog_area section-padding">
             <div class="container">
                 <div class="row">
@@ -40,111 +41,91 @@
                         <div class="blog_left_sidebar">
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
+                                    <img class="card-img rounded-0" src="assets/img/our_blog/blog.jpg" alt="">
+
                                 </div>
 
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="single-blog.html">
-                                        <h2>Google inks pact for new 35-storey office</h2>
+                                        <h2>Let's get your pet the care it deserves</h2>
                                     </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
+                                    <p> Our dedicated team is here to provide exceptional medical attention and compassionate support.
+                                        Together, we'll ensure your furry friend receives the best possible care and attention.</p>
                                 </div>
                             </article>
 
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
+                                    <img class="card-img rounded-0" src="assets/img/our_blog/dc.jpg" alt="">
                                 </div>
 
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="single-blog.html">
-                                        <h2>Google inks pact for new 35-storey office</h2>
+                                        <h2>How Much Does a Dog MRI Cost?</h2>
                                     </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
+                                    <p>Understanding the cost of an MRI for dogs is crucial for pet owners who want to
+                                        ensure the best possible care for their furry friends. Whether your dog is showing
+                                        signs of a serious health issue or your vet has recommended an MRI for a thorough diagnosis,
+                                        knowing what to expect financially can help you prepare.</p>
+                                        <a href="#" class="blog_item_date">
+                                            <h6>Learn More</h6>
+                                        </a>
                                 </div>
                             </article>
 
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
+                                    <img class="card-img rounded-0" src="assets/img/our_blog/ACL.jpg" alt="">
                                 </div>
 
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="single-blog.html">
-                                        <h2>Google inks pact for new 35-storey office</h2>
+                                        <h2>How Much Is ACL Surgery For Dogs?</h2>
                                     </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
+                                    <p>When a dog suffers a torn ACL, it's not just a physical injury
+                                        — it's an emotional and financial whirlwind for the pet's loving owner.
+                                        The heartache of seeing your beloved companion in distress is often compounded
+                                        by stress over the cost of care that they so rightly deserve.</p>
+                                        <a href="#" class="blog_item_date">
+                                            <h6>Learn More</h6>
+                                        </a>
                                 </div>
                             </article>
 
+
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_4.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
+                                    <img class="card-img rounded-0" src="assets/img/our_blog/Lipoma.jpg" alt="">
                                 </div>
 
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="single-blog.html">
-                                        <h2>Google inks pact for new 35-storey office</h2>
+                                        <h2>How Much Does it Cost to Remove a Lipoma in Dogs?</h2>
                                     </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
+                                    <p>As pet owners, we often face various health concerns for our beloved dogs, one of which is lipomas in dogs.
+                                        Lipomas are benign tumors composed of fatty tissue that can develop under the skin.</p>
+                                        <a href="#" class="blog_item_date">
+                                            <h6>Learn More</h6>
+                                        </a>
                                 </div>
                             </article>
 
+
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_5.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
+                                    <img class="card-img rounded-0" src="assets/img/our_blog/feed.jpg" alt="">
                                 </div>
 
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="single-blog.html">
-                                        <h2>Google inks pact for new 35-storey office</h2>
+                                        <h2>How Much To Feed A Puppy: Chart By Weight & Age</h2>
                                     </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
+                                    <p>Nutrition and diet are crucial for optimal health at every stage of your pet’s life,
+                                        but especially during their early stages of development. Learning how much to feed a
+                                        puppy and how often to feed a puppy can significantly impact their growth and behavior for years to come.</p>
+                                        <a href="#" class="blog_item_date">
+                                            <h6>Learn More</h6>
+                                        </a>
                                 </div>
                             </article>
 
@@ -370,6 +351,6 @@
 
 <!-- JS here -->
 @include('Scripts.scripts')
-        
+
 </body>
 </html>

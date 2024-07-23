@@ -16,7 +16,7 @@
        @include('components.header')
         <!-- Header End -->
     </header>
-    <main> 
+    <main>
         <!-- Hero Area Start -->
         <div class="slider-area2 slider-height2 d-flex align-items-center">
             <div class="container">
@@ -35,24 +35,28 @@
     <p class="intro-text">
         At Pet Care, we are dedicated to providing exceptional veterinary care for your beloved furry friends. Our mission is to ensure that your dogs live long, healthy, and happy lives by offering comprehensive medical services in a compassionate and welcoming environment.
     </p>
-    
+
     <div class="section">
         <h2 class="subtitle">Our Journey</h2>
         <div class="content">
-            <img src="https://placehold.co/150x150" alt="Pet Care Journey" class="image">
+            <img src="./assets/img/gallery/journey.jpg" alt="Pet Care Journey" class="image">
             <p class="text">
-                The story of Pet Care began in 2015, with a simple vision: to create a haven for dogs where their health is nurtured with love and expertise. Our founder, Dr. Perera, envisioned a place where cutting-edge veterinary medicine meets compassionate care, and this vision has guided us every step of the way.
+                The story of Pet Care began in 2015, with a simple vision: to create a haven for dogs where their health is nurtured with
+                love and expertise. Our founder, Dr. Perera, envisioned a place where cutting-edge veterinary medicine meets compassionate care,
+                and this vision has guided us every step of the way.
             </p>
         </div>
     </div>
-    
+
     <div class="section">
         <h2 class="subtitle">Our Philosophy</h2>
         <div class="content">
             <p class="text">
-                We understand that dogs are more than pets; they are loyal friends and cherished family members. That's why our approach to veterinary care is holistic and personalized. We focus on preventive care to keep tails wagging and provide comprehensive treatments when your dog needs it the most. Our mission is to ensure every visit is stress-free and positive for both you and your pet.
+                We understand that dogs are more than pets; they are loyal friends and cherished family members. That's why our approach
+                to veterinary care is holistic and personalized. We focus on preventive care to keep tails wagging and provide comprehensive
+                treatments when your dog needs it the most. Our mission is to ensure every visit is stress-free and positive for both you and your pet.
             </p>
-            <img src="https://placehold.co/150x150" alt="Pet Care Philosophy" class="image">
+            <img src="./assets/img/gallery/philosophy1.jpg" alt="Pet Care Philosophy" class="image">
         </div>
     </div>
 </div>
@@ -64,16 +68,29 @@
                     <div class="offset-xl-1 col-lg-8">
                         <div class="about-details-cap mb-50">
                             <h4>Our Mission</h4>
-                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                            <p>
+                                Our mission is to deliver outstanding pet care with unwavering dedication, combining the highest standards of
+                                medical expertise and compassionate service. We are committed to providing comprehensive health solutions, from
+                                routine check-ups to advanced treatments, ensuring every pet receives the individualized care they deserve.
                             </p>
-                            <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                            <p>
+                                By fostering a supportive and empathetic environment, we aim to build lasting relationships with pet owners,
+                                guiding them through every step of their pet's health journey. Our goal is to enhance the quality of life for
+                                pets and offer peace of mind for their families.
+                            </p>
                         </div>
 
                         <div class="about-details-cap mb-50">
                             <h4>Our Vision</h4>
-                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                            <p>
+                                Our vision for pet care is to provide exceptional, compassionate, and comprehensive services that enhance the health
+                                and well-being of every pet we see. We aim to create a nurturing environment where pets receive personalized attention,
+                                advanced medical treatments, and preventive care
                             </p>
-                            <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                            <p> By combining cutting-edge technology with a deep understanding of each pet's unique needs, we strive to ensure that every
+                                animal under our care leads a happy, healthy life. Our commitment is to partner with pet owners, offering support and
+                                guidance to ensure the best possible outcomes for their beloved companions.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -81,21 +98,22 @@
         </div>
         <!-- About Details End -->
         <!--? About Area Start-->
-        
+
         <!-- About Area End-->
         <!--? Team Start -->
-        
+
         <section class="team">
 		<div class="center">
 			<h1>Our Team</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Our team of skilled and compassionate professionals is dedicated to providing top-quality care for your pets.<br> With a blend of
+                expertise and empathy, we ensure every pet receives personalized attention and support.</p>
         </div>
 		</div>
 
 		<div class="team-content">
 			<div class="box">
-				<img src="img/01.png">
-				<h3>Steph Jobs</h3>
+				<img src="./assets/img/team/1.png">
+				<h3>Nethmi</h3>
 				<h5>Artist</h5>
 				<div class="icons">
 					<a href="#"><i class="ri-twitter-fill"></i></a>
@@ -105,8 +123,8 @@
 			</div>
 
 			<div class="box">
-				<img src="img/02.png">
-				<h3>Steph Jobs</h3>
+				<img src="./assets/img/team/2.png">
+				<h3>Silva</h3>
 				<h5>Artist</h5>
 				<div class="icons">
 					<a href="#"><i class="ri-twitter-fill"></i></a>
@@ -116,19 +134,8 @@
 			</div>
 
 			<div class="box">
-				<img src="img/03.png">
-				<h3>Steph Jobs</h3>
-				<h5>Artist</h5>
-				<div class="icons">
-					<a href="#"><i class="ri-twitter-fill"></i></a>
-					<a href="#"><i class="ri-facebook-box-fill"></i></a>
-					<a href="#"><i class="ri-instagram-fill"></i></a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="img/04.png">
-				<h3>Steph Jobs</h3>
+				<img src="./assets/img/team/3.png">
+				<h3>Gayani</h3>
 				<h5>Artist</h5>
 				<div class="icons">
 					<a href="#"><i class="ri-twitter-fill"></i></a>
@@ -219,7 +226,7 @@
                         <div class="section-tittle text-center mb-70">
                             <span>Oure recent news</span>
                             <h2>Our Recent Blog</h2>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -281,7 +288,7 @@
     <footer>
         <!-- Footer Start-->
     @include('components.footer')
-        
+
         <!-- Footer End-->
     </footer>
     <!-- Scroll Up -->
@@ -291,6 +298,6 @@
 
     <!-- JS here -->
     @include('Scripts.scripts')
-        
+
     </body>
 </html>

@@ -16,7 +16,7 @@
     <header>
   @include('components.header')
   </header>
-    <main> 
+    <main>
         <!--? Slider Area Start-->
         <div class="slider-area">
             <div class="slider-active dot-style">
@@ -34,13 +34,14 @@
                                 <div class="hero__caption">
                                     <span data-animation="fadeInUp" data-delay=".3s">We help to groom your pet</span>
                                     <h1 data-animation="fadeInUp" data-delay=".3s">We Care Your Pets.</h1>
-                                    <p data-animation="fadeInUp" data-delay=".6s">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sectetur adipisci.</p>
+                                    <p data-animation="fadeInUp" data-delay=".6s">Our team of dedicated veterinarians prioritizes providing quality pet healthcare, including routine check-ups, vaccinations,
+                                         advanced diagnostics, and surgical procedures, ensuring your furry family members receive comprehensive and compassionate care.</p>
                                     <a href="#" class="hero-btn" data-animation="fadeInLeft" data-delay=".3s">Contact Now<i class="ti-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- Slider Single -->
                 <div class="single-slider d-flex align-items-center slider-height">
                     <div class="container">
@@ -55,13 +56,14 @@
                                 <div class="hero__caption">
                                     <span data-animation="fadeInUp" data-delay=".3s">We help to groom your pet</span>
                                     <h1 data-animation="fadeInUp" data-delay=".3s">We Care Your Pets.</h1>
-                                    <p data-animation="fadeInUp" data-delay=".6s">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sectetur adipisci.</p>
+                                    <p data-animation="fadeInUp" data-delay=".6s">Our veterinary clinic is dedicated to exceptional pet healthcare, offering wellness exams, vaccinations, advanced diagnostics, and surgeries.
+                                        We ensure compassionate and supportive care for your beloved pets.</p>
                                     <a href="#" class="hero-btn" data-animation="fadeInLeft" data-delay=".3s">Contact Now<i class="ti-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div>
             </div>
             <!-- slider Social -->
             <div class="button-text d-none d-md-block">
@@ -78,7 +80,7 @@
                         <div class="section-tittle text-center mb-70">
                             <span>Our Professional Services</span>
                             <h2>Best Pet Care Services</h2>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -88,8 +90,8 @@
                                 <span class="flaticon-animal-kingdom"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">Pet Boarding</a></h5>
-                                <p>consectetur adipiscing elit, serfd dgo eiusmod tempor incididunt ut ore et dolore magna aliqua.</p>
+                                <h5><a href="#">Regular Check-ups</a></h5>
+                                <p>Routine health exams to  monitor your pet’s well-being.</p>
                                 <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -97,11 +99,11 @@
                     <div class=" col-lg-4 col-md-6 col-sm-6">
                         <div class="single-services text-center mb-30">
                             <div class="services-ion">
-                                <span class="flaticon-animals"></span>
+                                 <span class="flaticon-animals"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">Pet Treatment</a></h5>
-                                <p>consectetur adipiscing elit, serfd dgo eiusmod tempor incididunt ut ore et dolore magna aliqua.</p>
+                                <h5><a href="#">Vaccination</a></h5>
+                                <p>Immunizations to protect  against common diseases </p>
                                 <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -109,11 +111,47 @@
                     <div class=" col-lg-4 col-md-6 col-sm-6">
                         <div class="single-services text-center mb-30">
                             <div class="services-ion">
-                                <span class="flaticon-animals-1"></span>
+                               <span class="flaticon-animals-1"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">Vaccinations</a></h5>
-                                <p>consectetur adipiscing elit, serfd dgo eiusmod tempor incididunt ut ore et dolore magna aliqua.</p>
+                                <h5><a href="#">Dental Care</a></h5>
+                                <p>Teeth cleaning and oral health checks.</p>
+                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                 <span class="flaticon-animals"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5><a href="#">Nutrition Concealing </a></h5>
+                                <p>Dial plans and advice  to ensure proper  nutrition.</p>
+                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                               <span class="flaticon-animals-1"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5><a href="#">Surgical Service </a></h5>
+                                <p>Comprehensive surgical care, routine to emergency and compassionate.</p>
+                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-animal-kingdom"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5><a href="#">Specialized care </a></h5>
+                                <p>Treatment for chronic conditions  and specialized veterinary care.</p>
                                 <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -134,8 +172,8 @@
                         <h2>We are committed for<br>better service</h2>
                     </div>
                     <div class="about-more">
-                        <p class="pera-top" >Mollit anim laborum duis adseu dolor iuyn voluptcate velit ess<br>cillum dolore egru lofrre dsu.</p>
-                        <p class="mb-65 pera-bottom">Mollit anim laborum. Dvcuis aute serunt iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.</p>
+                        <p class="pera-top" >we prioritize the well-being and happiness of your pets. <br>you can trust us to provide the best care possible for your beloved companion.</p>
+                        <p class="mb-65 pera-bottom">Our commitment extends beyond just providing products; it’s about creating a supportive community and delivering exceptional service.</p>
                         <a href="#" class="btn">Read More</a>
                     </div>
                 </div>
@@ -174,7 +212,7 @@
                         <div class="section-tittle text-center mb-70">
                             <span>Our Recent Photos</span>
                             <h2>Pets Photo Gallery</h2>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -291,12 +329,12 @@
                         <!-- <div class="section-tittle text-center mb-70">
                             <span>Our Professional members </span>
                             <h2>Our Team Mambers</h2>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <!- single Tem -->
-                    
+
                     <!--<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                         <div class="single-team mb-30">
                             <div class="team-img">
@@ -349,42 +387,43 @@
                                         <div class="founder-img mb-40">
                                             <img src="assets/img/gallery/testi-logo.png" alt="">
                                             <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
+                                            <p>Doctor</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                        <p>“As a veterinarian, I understand the critical importance of maintaining your dog's health and fitness. Regular exercise and a
+                                            balanced diet are key to preventing illnesses and ensuring your pet leads a long, healthy life.”</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Single Testimonial -->
                              <div class="single-testimonial text-center">
                                 <div class="testimonial-caption ">
-                                    
+
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="assets/img/gallery/testi-logo.png" alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
+                                            <img src="assets/img/gallery/team1.png" alt="">
+                                            <span>Prera Smith</span>
+                                            <p>Doctor</p>
                                         </div>
-                                    </div> 
+                                    </div>
                                      <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                        <p>“Keeping your dog fit and healthy is essential. Providing proper nutrition and consistent exercise can significantly improve their quality of life and longevity. ”</p>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="single-testimonial text-center">
                                 <div class="testimonial-caption ">
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="assets/img/gallery/testi-logo.png" alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
+                                            <img src="assets/img/gallery/team2.png" alt="">
+                                            <span>Vijay Rathna</span>
+                                            <p>Doctor</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                        <p>“ I emphasize the importance of fitness and health for your dog. It's our responsibility to ensure they receive nutritious food and regular physical activity to prevent health issues.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -394,21 +433,21 @@
                                     <!-- founder -->
                                      <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="assets/img/gallery/testi-logo.png" alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Creative Director</p>
+                                            <img src="assets/img/gallery/team3.png" alt="">
+                                            <span>Shalika</span>
+                                            <p>Doctor</p>
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                        <p>“Maintaining your dog's health and fitness should be a priority. Proper diet and exercise are crucial in safeguarding their well-being and enhancing their overall vitality.”</p>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                      </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!-- Testimonial End -->
         <!--? Blog start -->
         <div class="home_blog-area section-padding30">
@@ -419,7 +458,7 @@
                         <div class="section-tittle text-center mb-70">
                             <span>Oure recent news</span>
                             <h2>Our Recent Blog</h2>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -430,10 +469,10 @@
                             </div>
                             <div class="blogs-cap">
                                 <div class="date-info">
-                                    <span>Pet food</span>
-                                    <p>Nov 30, 2020</p>
+                                    <span>Pet Surgery</span>
+                                    <p>March 20, 2024</p>
                                 </div>
-                                <h4>Amazing Places To Visit In Summer</h4>
+                                <h4>Routine  and emergency surgeries</h4>
                                 <a href="blog_details.html" class="read-more1">Read more</a>
                             </div>
                         </div>
@@ -445,10 +484,10 @@
                             </div>
                             <div class="blogs-cap">
                                 <div class="date-info">
-                                    <span>Pet food</span>
-                                    <p>Nov 30, 2020</p>
+                                    <span>Pet Vaccination</span>
+                                    <p>May 10, 2024</p>
                                 </div>
-                                <h4>Developing Creativithout Losing Visual</h4>
+                                <h4>Immunizations to protect  against common diseases</h4>
                                 <a href="blog_details.html" class="read-more1">Read more</a>
                             </div>
                         </div>
@@ -460,10 +499,10 @@
                             </div>
                             <div class="blogs-cap">
                                 <div class="date-info">
-                                    <span>Pet food</span>
-                                    <p>Nov 30, 2020</p>
+                                    <span>Pet Specialized care</span>
+                                    <p>June 26, 2020</p>
                                 </div>
-                                <h4>Winter Photography Tips from Glenn</h4>
+                                <h4>Specialized chronic condition treatment</h4>
                                 <a href="blog_details.html" class="read-more1">Read more</a>
                             </div>
                         </div>
@@ -476,7 +515,7 @@
         @include('components.Anytimetocall')
         <!-- contact-animal-owner End -->
     </main>
-    
+
     @include('components.partners')
 
 
@@ -489,7 +528,7 @@
                 <div class="footer-border">
                      <div class="row d-flex align-items-center">
                          <div class="col-xl-12 ">
-                           
+
                          </div>
                      </div>
                 </div>
@@ -503,8 +542,8 @@
     </div>
 
     <!-- JS here -->
-    
+
    @include('Scripts.scripts')
-        
+
     </body>
 </html>

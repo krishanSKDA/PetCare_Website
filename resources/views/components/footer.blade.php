@@ -10,7 +10,8 @@
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
-                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor elit. </p>
+                                     <p>Copyright @ 2022  Pet Care<br>
+                                        | All Right  Resolved</p>
                                 </div>
                              </div>
                              <!-- social -->
