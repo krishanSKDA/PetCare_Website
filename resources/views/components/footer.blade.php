@@ -10,16 +10,16 @@
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
-                                     <p>Copyright @ 2022  Pet Care<br>
-                                        | All Right  Resolved</p>
+                                     <p>Copyright @ 2024  Pet Care<br>
+                                        | All Right  Reserved</p>
                                 </div>
                              </div>
                              <!-- social -->
                              <div class="footer-social">
-                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                 <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                 <a href="#"><i class="fab fa-linkedin"></i></a>
-                                 <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                                 <a href=""><i class="fab fa-facebook-square"></i></a>
+                                 <a href=""><i class="fab fa-twitter-square"></i></a>
+                                 <a href=""><i class="fab fa-linkedin"></i></a>
+                                 <a href=""><i class="fab fa-pinterest-square"></i></a>
                              </div>
                          </div>
                        </div>
@@ -27,13 +27,14 @@
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Company</h4>
+                                <h4>Sections</h4>
                                 <ul>
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Cases</a></li>
-                                    <li><a href="#">  Contact Us</a></li>
+                                    <li><a href="Service">Services</a></li>
+                                    <li><a href="/About">About Us</a></li>
+                                    <li><a href="/Product">Products</a></li>
+                                    <li><a href="/Blog">Blogs</a></li>
+                                    <li><a href="/ContactUs">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -43,11 +44,12 @@
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="#">Commercial Cleaning</a></li>
-                                    <li><a href="#">Office Cleaning</a></li>
-                                    <li><a href="#">Building Cleaning</a></li>
-                                    <li><a href="#">Floor Cleaning</a></li>
-                                    <li><a href="#">Apartment Cleaning</a></li>
+                                    <li><a href="/Service">Regular Check-ups</a></li>
+                                    <li><a href="/Service">Vaccination</a></li>
+                                    <li><a href="/Service">Dental Care</a></li>
+                                    <li><a href="/Service">Nutrition Concealing</a></li>
+                                    <li><a href="/Service">Surgical Service</a></li>
+                                    <li><a href="/Service">Specialized Care</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -57,9 +59,9 @@
                             <div class="footer-tittle">
                                 <h4>Get in Touch</h4>
                                 <ul>
-                                 <li><a href="#">152-515-6565</a></li>
-                                 <li><a href="#"> Demomail@gmail.com</a></li>
-                                 <li><a href="#">New Orleans, USA</a></li>
+                                 <li><a href="/ContactUs">+94 77 178 4784</a></li>
+                                 <li><a href="/ContactUs"> Petcare@gmail.com</a></li>
+                                 <li><a href="/ContactUs">25 George E De Silva Mawath, Kandy</a></li>
                              </ul>
                             </div>
                         </div>

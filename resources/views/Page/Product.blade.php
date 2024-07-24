@@ -79,7 +79,7 @@
     <section id="vertical_product">
         <div class="container">
             <div class="controls">
-                <button type="button" class="control" data-filter="all">ALL Product</button>
+                <button type="button" class="control" data-filter="all">All Products</button>
                 <button type="button" class="control" data-filter=".petfood">Pet Food</button>
                 <button type="button" class="control" data-filter=".petToys">Pet Toys</button>
                 <button type="button" class="control" data-filter=".medicine">Medicine</button>
@@ -88,52 +88,61 @@
             </div>
             <div class="products">
                 <div class="mix petfood">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petfood.jpg" alt="product" />
                 </div>
                 <div class="mix petfood">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petfood6.jpg" alt="product" />
                 </div>
                 <div class="mix petfood">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petfood2.jpg" alt="product" />
                 </div>
                 <div class="mix petfood">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petfood3.jpg" alt="product" />
+                </div>
+                <div class="mix petfood">
+                    <img src="assets/img/hero/petfood4.jpg" alt="product" />
+                </div>
+                <div class="mix petfood">
+                    <img src="assets/img/hero/petfood7.jpg" alt="product" />
                 </div>
                 <div class="mix petToys">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/pettoy1.webp" alt="product" />
                 </div>
                 <div class="mix petToys">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/pettoy2.webp" alt="product" />
                 </div>
                 <div class="mix petToys">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/pettoy3.webp" alt="product" />
                 </div>
                 <div class="mix petToys">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/pettoy4.jpg" alt="product" />
                 </div>
                 <div class="mix medicine">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petmed1.webp" alt="product" />
                 </div>
                 <div class="mix medicine">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petmed2.jpg" alt="product" />
                 </div>
                 <div class="mix medicine">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/petmed3.webp" alt="product" />
                 </div>
                 <div class="mix accessories">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/acc1.jpg" alt="product" />
                 </div>
                 <div class="mix accessories">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/acc2.webp" alt="product" />
+                </div>
+                <div class="mix accessories">
+                    <img src="assets/img/hero/acc3.png" alt="product" />
                 </div>
                 <div class="mix clothing">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/cloth1.jpg" alt="product" />
                 </div>
                 <div class="mix clothing">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/cloth2.webp" alt="product" />
                 </div>
                 <div class="mix clothing">
-                    <img src="assets/img/hero/pr.jpg" alt="product" />
+                    <img src="assets/img/hero/cloth3.webp" alt="product" />
                 </div>
             </div>
         </div>
@@ -147,7 +156,7 @@
       <div class="product_image_gallery">
         <div class="product-img">
           <img
-            src="assets/img/hero/pr.jpg"
+            src="assets/img/hero/petfood.jpg"
             alt="Product Image"
             class="product-main-img"
             data-index="1"
@@ -156,28 +165,28 @@
         <div class="product-thumbnail-container">
           <div class="product-thumbnail active">
             <img
-              src="assets/img/hero/pr.jpg"
+              src="assets/img/hero/pettoy1.webp"
               alt="thumbnail Image"
               data-index="1"
             />
           </div>
           <div class="product-thumbnail">
             <img
-              src="assets/img/hero/pr.jpg"
+              src="assets/img/hero/acc1.jpg"
               alt="thumbnail Image"
               data-index="2"
             />
           </div>
           <div class="product-thumbnail">
             <img
-              src="assets/img/hero/pr.jpg"
+              src="assets/img/hero/petfood4.jpg"
               alt="thumbnail Image"
               data-index="3"
             />
           </div>
           <div class="product-thumbnail">
             <img
-              src="assets/img/hero/pr.jpg"
+              src="assets/img/hero/petmed2.jpg"
               alt="thumbnail Image"
               data-index="4"
             />
@@ -203,7 +212,7 @@
             <div class="item">
                 <img src="images/1.webp" alt="">
                 <h2>CoPilot / Black / Automatic</h2>
-                <div class="price">$550</div>
+                <div class="price">Rs 550</div>
                 <button>Add To Cart</button>
             </div>
         </div>
@@ -216,7 +225,7 @@
                 <img src="images/1.webp">
                 <div class="content">
                     <div class="name">CoPilot / Black / Automatic</div>
-                    <div class="price">$550 / 1 product</div>
+                    <div class="price">Rs550 / 1 product</div>
                 </div>
                 <div class="quantity">
                     <button>-</button>

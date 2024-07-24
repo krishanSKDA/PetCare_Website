@@ -148,12 +148,12 @@
 	</section>
         <!-- Team End -->
         <!--? Contact form Start -->
-        <div class="contact-form-main pb-top">
+        <!-- <div class="contact-form-main pb-top">
             <div class="container">
                 <div class="row justify-content-md-end">
                     <div class="col-xl-7 col-lg-7">
                         <div class="form-wrapper">
-                            <!--Section Tittle  -->
+                            
                             <div class="form-tittle">
                                 <div class="row ">
                                     <div class="col-xl-12">
@@ -163,7 +163,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--End Section Tittle  -->
+                           
                             <form id="contact-form" action="#" method="POST">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
@@ -201,7 +201,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- shape-dog -->
+                               
                                 <div class="shape-dog">
                                     <img src="assets/img/gallery/shape1.png" alt="">
                                 </div>
@@ -210,11 +210,11 @@
                     </div>
                 </div>
             </div>
-            <!-- contact left Img-->
+           
             <div class="from-left d-none d-lg-block">
                 <img src="assets/img/gallery/contact_form.png" alt="">
             </div>
-        </div>
+        </div> -->
 
         <!-- Contact form End -->
         <!--? Blog start -->
