@@ -7186,9 +7186,10 @@ header .totalQuantity{
 
 .appointment_container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     min-height: 100vh; /* Ensure it takes the full height */
     width: 100%;
     max-width: 1000px;
@@ -7199,13 +7200,14 @@ header .totalQuantity{
 }
 
 .appointment_container .left-section {
-    flex: 0.3;
+    /* flex: 0.3; */
     background: url('assets/img/page/about.jpg') no-repeat center center; 
     background-size: cover;
     display: flex;
-    justify-content: center; /* Align items to the left */
+    justify-content: center; /*Align items to the left */
     align-items: flex-start; /* Align items to the top */
-    padding: 20px;
+    flex-direction: column;
+    padding: 40px 20px 10px;
 }
 
 .appointment_container .left-section img {
@@ -7214,7 +7216,7 @@ header .totalQuantity{
     max-height: 100px;
 }
 .right-section {
-    flex: 1;
+    /* flex: 1; */
     padding: 40px;
     box-sizing: border-box;
 }
@@ -7229,9 +7231,22 @@ h1 {
 p {
     color: #666;
 }
+.content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex-direction: row;
+}
 
 .input-group {
     margin-bottom: 20px;
+    width: 50%;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 label {
@@ -7277,7 +7292,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="date"], 
 }
 
 a {
-    color:red;
+    color:white;
 }
 
 a:hover {
