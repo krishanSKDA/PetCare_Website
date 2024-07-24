@@ -40,36 +40,46 @@
         <img src="assets/img/logo/Newlogo.png" alt="Pet Care Logo">
     </div>
     <div class="right-section">
-        <h1>Welcome to Pet Care</h1>
-        <p>Schedule your pet's appointment</p>
+       <div class="head">
+       <h1>Welcome to Pet Care</h1>
+       <p>Schedule your pet's appointment</p>
+       </div>
         <form id="appointment-form">
-            <div class="input-group">
+           <div class="content">
+           <div class="input-group">
                 <label for="owner-name">Owner's Full Name</label>
-                <input type="text" id="owner-name" name="owner-name" required>
+                <input type="text" id="owner-name" name="owner-name" required placeholder="Enter your name">
             </div>
             <div class="input-group">
                 <label for="pet-name">Pet's Name</label>
-                <input type="text" id="pet-name" name="pet-name" required>
+                <input type="text" id="pet-name" name="pet-name" required placeholder="Enter your pet's name">
             </div>
-            <div class="input-group">
-                <label for="pet-type">Pet Type</label>
+           </div>
+           <div class="content">
+           <div class="input-group">
+                <label for="pet-type" >Pet Type</label>
                 <input type="text" id="pet-type" name="pet-type" required>
             </div>
             <div class="input-group">
                 <label for="appointment-date">Appointment Date</label>
                 <input type="date" id="appointment-date" name="appointment-date" required>
             </div>
+           </div>
+            <div class="content">
             <div class="input-group">
                 <label for="appointment-time">Appointment Time</label>
+                
                 <input type="time" id="appointment-time" name="appointment-time" required>
             </div>
             <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required placeholder="Enter your Email address">
             </div>
+            </div>
+            <div class="content">
             <div class="input-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
             </div>
             <div class="input-group">
                 <label for="service">Service Required</label>
@@ -79,6 +89,7 @@
                     <option value="checkup">Checkup</option>
                     <option value="surgery">Surgery</option>
                 </select>
+            </div>
             </div>
             <button class="app_btn" type="submit">Schedule Appointment</button>
         </form>
