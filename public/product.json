@@ -1,57 +1,57 @@
 [
     {
         "id": 1,
-        "name": "Product 1",
+        "name": "Kibbles n Bites",
         "price": 520,
-        "image": "images/1.webp"
+        "image": "assets/img/hero/petfood2.jpg"
     },
     {
         "id": 2,
-        "name": "Product 2",
+        "name": "Ball For Pet",
         "price": 220,
-        "image": "images/2.webp"
+        "image": "assets/img/hero/pettoy2.webp"
     },
     {
         "id": 3,
-        "name": "Product 3",
+        "name": "Abort AID",
         "price": 250,
-        "image": "images/3.webp"
+        "image": "assets/img/hero/petmed2.jpg"
     }
     ,
     {
         "id": 4,
-        "name": "Product 4",
+        "name": "Pet Pillow",
         "price": 420,
-        "image": "images/4.webp"
+        "image": "assets/img/hero/acc2.webp"
     },
     {
         "id": 5,
-        "name": "Product 5",
+        "name": "Sport Cloth For Pet",
         "price": 120,
-        "image": "images/5.webp"
+        "image": "assets/img/hero/cloth1.jpg"
     },
     {
         "id": 6,
-        "name": "Product 6",
+        "name": "Let's Bite",
         "price": 120,
-        "image": "images/6.webp"
+        "image": "assets/img/hero/petfood6.jpg"
     },
     {
         "id": 7,
-        "name": "Product 7",
+        "name": "Rope Toy",
         "price": 120,
-        "image": "images/6.webp"
+        "image": "assets/img/hero/pettoy4.jpg"
     },
     {
         "id": 8,
-        "name": "Product 8",
+        "name": "Dermisule",
         "price": 120,
-        "image": "images/6.webp"
+        "image": "assets/img/hero/petmed3.webp"
     },
     {
         "id": 9,
-        "name": "Product 9",
+        "name": "Pet Jacket",
         "price": 120,
-        "image": "images/6.webp"
+        "image": "assets/img/hero/cloth2.webp"
     }
 ]

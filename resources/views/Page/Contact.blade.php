@@ -101,7 +101,7 @@
             <!-- add contact form -->
 <div class="form-container">
     <h1>
-        Contact Us Now.
+        Contact Us Now
     </h1>
   <form>
     <div class="grid">

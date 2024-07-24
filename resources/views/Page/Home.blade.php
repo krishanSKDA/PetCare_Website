@@ -27,7 +27,7 @@
                             <div class="col-xl-7 col-lg-8 col-md-10 ">
                                 <!-- Video icon -->
                                 <div class="video-icon">
-                                    <a class="popup-video btn-icon" href="#" data-animation="bounceIn" data-delay=".4s">
+                                    <a class="popup-video btn-icon" href="assets/video/petcarevideo.mp4" data-animation="bounceIn" data-delay=".4s">
                                         <i class="fas fa-play"></i>
                                     </a>
                                 </div>
@@ -36,7 +36,7 @@
                                     <h1 data-animation="fadeInUp" data-delay=".3s">We Care Your Pets.</h1>
                                     <p data-animation="fadeInUp" data-delay=".6s">Our team of dedicated veterinarians prioritizes providing quality pet healthcare, including routine check-ups, vaccinations,
                                          advanced diagnostics, and surgical procedures, ensuring your furry family members receive comprehensive and compassionate care.</p>
-                                    <a href="#" class="hero-btn" data-animation="fadeInLeft" data-delay=".3s">Contact Now<i class="ti-arrow-right"></i> </a>
+                                    <a href="/ContactUs" class="hero-btn" data-animation="fadeInLeft" data-delay=".3s">Contact Now<i class="ti-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                             <div class="col-xl-7 col-lg-8 col-md-10 ">
                                 <!-- Video icon -->
                                 <div class="video-icon">
-                                    <a class="popup-video btn-icon" href="#" data-animation="bounceIn" data-delay=".4s">
+                                    <a class="popup-video btn-icon" href="assets/video/petcarevideo.mp4" data-animation="bounceIn" data-delay=".4s">
                                         <i class="fas fa-play"></i>
                                     </a>
                                 </div>
@@ -58,7 +58,7 @@
                                     <h1 data-animation="fadeInUp" data-delay=".3s">We Care Your Pets.</h1>
                                     <p data-animation="fadeInUp" data-delay=".6s">Our veterinary clinic is dedicated to exceptional pet healthcare, offering wellness exams, vaccinations, advanced diagnostics, and surgeries.
                                         We ensure compassionate and supportive care for your beloved pets.</p>
-                                    <a href="#" class="hero-btn" data-animation="fadeInLeft" data-delay=".3s">Contact Now<i class="ti-arrow-right"></i> </a>
+                                    <a href="/ContactUs" class="hero-btn" data-animation="fadeInLeft" data-delay=".3s">Contact Now<i class="ti-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -90,9 +90,9 @@
                                 <span class="flaticon-animal-kingdom"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="#">Regular Check-ups</a></h5>
+                                <h5><a href="">Regular Check-ups</a></h5>
                                 <p>Routine health exams to  monitor your pet’s well-being.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="/Service" style="color:black">Book Now <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Vaccination</a></h5>
                                 <p>Immunizations to protect  against common diseases </p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="/Service" style="color:black">Book Now <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Dental Care</a></h5>
                                 <p>Teeth cleaning and oral health checks.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="/Service" style="color:black">Book Now <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Nutrition Concealing </a></h5>
                                 <p>Dial plans and advice  to ensure proper  nutrition.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="/Service" style="color:black">Book Now <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Surgical Service </a></h5>
                                 <p>Comprehensive surgical care, routine to emergency and compassionate.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="/Service" style="color:black">Book Now<i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Specialized care </a></h5>
                                 <p>Treatment for chronic conditions  and specialized veterinary care.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="/Service" style="color:black">Book Now <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                     <div class="about-more">
                         <p class="pera-top" >we prioritize the well-being and happiness of your pets. <br>you can trust us to provide the best care possible for your beloved companion.</p>
                         <p class="mb-65 pera-bottom">Our commitment extends beyond just providing products; it’s about creating a supportive community and delivering exceptional service.</p>
-                        <a href="#" class="btn">Read More</a>
+                        <a href="/About" class="btn">Read More</a>
                     </div>
                 </div>
                 <!-- Info Boxes -->
@@ -252,12 +252,12 @@
         </div>
         <!-- Gallery Area End -->
         <!--? Contact form Start -->
-        <div class="contact-form-main pb-top">
+        <!-- <div class="contact-form-main pb-top">
             <div class="container">
                 <div class="row justify-content-md-end">
                     <div class="col-xl-7 col-lg-7">
                         <div class="form-wrapper">
-                            <!--Section Tittle  -->
+                            
                             <div class="form-tittle">
                                 <div class="row ">
                                     <div class="col-xl-12">
@@ -267,7 +267,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--End Section Tittle  -->
+                            
                             <form id="contact-form" action="#" method="POST">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
@@ -305,7 +305,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- shape-dog -->
+                              
                                 <div class="shape-dog">
                                     <img src="assets/img/hero/shape1.png" alt="">
                                 </div>
@@ -314,11 +314,11 @@
                     </div>
                 </div>
             </div>
-            <!-- contact left Img-->
+            
             <div class="from-left d-none d-lg-block">
                 <img src="assets/img/hero/contact_form.jpg" alt="">
             </div>
-        </div>
+        </div> -->
         <!-- Contact form End -->
         <!--? Team Start -->
         <!-- <div class="team-area section-padding30">
@@ -373,26 +373,32 @@
         </div> -->
         <!-- Team End -->
         <!--? Testimonial Start -->
+        
+
          <div class="testimonial-area testimonial-padding section-bg" >
+         
             <div class="container">
+            
                 <!--Testimonial contents -->
                 <div class="row d-flex justify-content-center">
+            
+                
                     <div class="col-xl-8 col-lg-8 col-md-10">
                         <div class="h1-testimonial-active dot-style">
                             <!--Single Testimonial -->
                             <div class="single-testimonial text-center">
                                 <div class="testimonial-caption ">
+                                   
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="assets/img/gallery/testi-logo.png" alt="">
-                                            <span>Margaret Lawson</span>
-                                            <p>Doctor</p>
+                                            <img src="assets/img/gallery/cus1.jpeg" alt="">
+                                            <span>Sandeepa Dasanayaka</span>
+                                            <p>Lawyer</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“As a veterinarian, I understand the critical importance of maintaining your dog's health and fitness. Regular exercise and a
-                                            balanced diet are key to preventing illnesses and ensuring your pet leads a long, healthy life.”</p>
+                                        <p>“I can't say enough good things about PetCare! My dog, Bella, always comes back happy and well-groomed. The staff is incredibly friendly and genuinely cares about the pets. They offer a variety of services, from grooming to overnight stays, and I've been impressed with all of them. I highly recommend PetCare to any pet owner looking for reliable and loving care for their furry friends”</p>
                                     </div>
                                 </div>
                             </div>
@@ -402,13 +408,13 @@
 
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="assets/img/gallery/team1.png" alt="">
-                                            <span>Prera Smith</span>
-                                            <p>Doctor</p>
+                                            <img src="assets/img/gallery/cus2.png" alt="">
+                                            <span>Gayani Perera</span>
+                                            <p>Artist</p>
                                         </div>
                                     </div>
                                      <div class="testimonial-top-cap">
-                                        <p>“Keeping your dog fit and healthy is essential. Providing proper nutrition and consistent exercise can significantly improve their quality of life and longevity. ”</p>
+                                        <p>“PetCare has been a lifesaver for my busy schedule. I often have to travel for work, and knowing that my cat, Whiskers, is in good hands gives me peace of mind. The facility is clean and well-maintained, and the staff is attentive. My only minor complaint is that sometimes it's hard to get an appointment during peak times, but the quality of care is worth the wait. ”</p>
                                     </div>
                                 </div>
                             </div>
@@ -423,7 +429,7 @@
                                         </div>
                                     </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“ I emphasize the importance of fitness and health for your dog. It's our responsibility to ensure they receive nutritious food and regular physical activity to prevent health issues.”</p>
+                                        <p>“Absolutely fantastic service! My dog, Max, is usually anxious when I'm away, but the team at PetCare made him feel right at home. They sent me regular updates and pictures, which I really appreciated. Max looked so happy in all the photos! Their grooming service is top-notch too. Max came back looking great and smelling fresh. I highly recommend PetCare!”</p>
                                     </div>
                                 </div>
                             </div>
@@ -439,7 +445,7 @@
                                         </div>
                                     </div>
                                     <div class="testimonial-top-cap">
-                                        <p>“Maintaining your dog's health and fitness should be a priority. Proper diet and exercise are crucial in safeguarding their well-being and enhancing their overall vitality.”</p>
+                                        <p>“PetCare is wonderful. My cat, Thumper, needed a place to stay while I was on vacation, and I was worried about finding a place that understood how to care for rabbits. The staff here was knowledgeable and took great care of Thumper. He was happy and healthy when I returned. The only downside is that the prices are a bit higher than some other places, but the quality of care justifies the cost.”</p>
                                     </div>
                                 </div>
                             </div>
@@ -456,7 +462,7 @@
                     <div class="cl-xl-7 col-lg-8 col-md-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
-                            <span>Oure recent news</span>
+                            <span>Our recent news</span>
                             <h2>Our Recent Blog</h2>
                         </div>
                     </div>
@@ -473,7 +479,7 @@
                                     <p>March 20, 2024</p>
                                 </div>
                                 <h4>Routine  and emergency surgeries</h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <a href="/Blog" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -488,7 +494,7 @@
                                     <p>May 10, 2024</p>
                                 </div>
                                 <h4>Immunizations to protect  against common diseases</h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <a href="/Blog" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -503,7 +509,7 @@
                                     <p>June 26, 2020</p>
                                 </div>
                                 <h4>Specialized chronic condition treatment</h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <a href="/Blog" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>

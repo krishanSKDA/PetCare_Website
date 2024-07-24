@@ -8,8 +8,8 @@
                         <p style="color: white;">Because we know that even the best technology is only as good as the people behind it. 24/7 tech support.</p>
                     </div>
                     <div class="contact_btn d-flex align-items-center justify-content-center">
-                        <a href="contact.html" class="btn white-btn">Contact Us</a>
-                        <p style="color: white;">Or<a href="#"> +880 4664 216</a></p>
+                        <a href="/ContactUs" class="btn white-btn">Contact Us</a>
+                        <p style="color: white;">Or<a href="/ContactUs"> +94 77 178 4784</a></p>
                     </div>
                 </div>
             </div>
