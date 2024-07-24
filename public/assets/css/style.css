@@ -2219,8 +2219,8 @@ hr {
 }
 .header-area .main-header .main-menu ul ul.submenu {
     position: absolute;
-    width: 170px;
-    background: rgba(255, 255, 255, 0.9);
+    display: block;
+    background: black;
     left: 0;
     top: 80%;
     visibility: hidden;
@@ -2241,6 +2241,8 @@ hr {
     padding: 6px 10px !important;
     font-size: 16px;
     text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
     margin: 0;
 }
 .header-area .main-header .main-menu ul ul.submenu > li > a:hover {
@@ -7342,4 +7344,32 @@ a:hover {
 .checkbox {
     display: flex;
     align-items: center;
+}
+
+/* login /register icon and dropdown*/
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Dropdown menu styling */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
 }
