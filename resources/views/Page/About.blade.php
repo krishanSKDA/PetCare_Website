@@ -40,23 +40,28 @@
         <h2 class="subtitle">Our Journey</h2>
         <div class="content">
             <img src="./assets/img/gallery/journey.jpg" alt="Pet Care Journey" class="image">
-            <p class="text">
+           <div class="para-1">
+           <p class="text">
                 The story of Pet Care began in 2015, with a simple vision: to create a haven for dogs where their health is nurtured with
                 love and expertise. Our founder, Dr. Perera, envisioned a place where cutting-edge veterinary medicine meets compassionate care,
                 and this vision has guided us every step of the way.
             </p>
+           </div>
         </div>
     </div>
 
     <div class="section">
         <h2 class="subtitle">Our Philosophy</h2>
         <div class="content">
+        <img src="./assets/img/gallery/philosophy1.jpg" alt="Pet Care Philosophy" class="image">
+            <div class="para-1">
             <p class="text">
                 We understand that dogs are more than pets; they are loyal friends and cherished family members. That's why our approach
                 to veterinary care is holistic and personalized. We focus on preventive care to keep tails wagging and provide comprehensive
                 treatments when your dog needs it the most. Our mission is to ensure every visit is stress-free and positive for both you and your pet.
             </p>
-            <img src="./assets/img/gallery/philosophy1.jpg" alt="Pet Care Philosophy" class="image">
+            </div>
+            
         </div>
     </div>
 </div>
@@ -68,6 +73,7 @@
                     <div class="offset-xl-1 col-lg-8">
                         <div class="about-details-cap mb-50">
                             <h4>Our Mission</h4>
+                            <hr>
                             <p>
                                 Our mission is to deliver outstanding pet care with unwavering dedication, combining the highest standards of
                                 medical expertise and compassionate service. We are committed to providing comprehensive health solutions, from
@@ -82,6 +88,7 @@
 
                         <div class="about-details-cap mb-50">
                             <h4>Our Vision</h4>
+                            <hr>
                             <p>
                                 Our vision for pet care is to provide exceptional, compassionate, and comprehensive services that enhance the health
                                 and well-being of every pet we see. We aim to create a nurturing environment where pets receive personalized attention,
