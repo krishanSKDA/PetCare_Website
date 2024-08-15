@@ -88,7 +88,7 @@
                     <option value="vaccination">Vaccination</option>
                     <option value="checkup">Checkup</option>
                     <option value="surgery">Surgery</option>
-                </select>
+                </select> 
             </div>
             </div>
             <button class="app_btn" type="submit">Schedule Appointment</button>

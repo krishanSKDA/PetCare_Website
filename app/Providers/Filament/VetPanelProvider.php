@@ -19,6 +19,7 @@ use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
+
 class VetPanelProvider extends PanelProvider
 {
     public function panel(Panel $panel): Panel
@@ -30,6 +31,7 @@ class VetPanelProvider extends PanelProvider
             ->login()
             ->registration()
             ->profile()
+            
             ->userMenuItems([
                 MenuItem::make()
                 ->label('Admin')
@@ -38,8 +40,16 @@ class VetPanelProvider extends PanelProvider
                 ->visible(fn(): bool=>auth() ->user()->is_admin)
             ])
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => '#006600',
             ])
+            // ->colors([
+            //     'primary' => '#4CAF50', 
+            //     'secondary' => '#03A9F4', 
+            //     'accent' => '#FF9800', 
+            //     'background' => '#F5F5F5', 
+            //     'text' => '#333333',
+            // ])
+            ->favicon(asset('assets/img/favicon.ico'))
             ->discoverResources(in: app_path('Filament/Vet/Resources'), for: 'App\\Filament\\Vet\\Resources')
             ->discoverPages(in: app_path('Filament/Vet/Pages'), for: 'App\\Filament\\Vet\\Pages')
             ->pages([
@@ -48,7 +58,7 @@ class VetPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Vet/Widgets'), for: 'App\\Filament\\Vet\\Widgets')
             ->widgets([
                 Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
+             
             ])
             ->middleware([
                 EncryptCookies::class,
@@ -64,5 +74,6 @@ class VetPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ]);
+           
     }
 }
