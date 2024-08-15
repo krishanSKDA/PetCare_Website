@@ -2219,8 +2219,9 @@ hr {
 }
 .header-area .main-header .main-menu ul ul.submenu {
     position: absolute;
-    width: 170px;
-    background: rgba(255, 255, 255, 0.9);
+    display: block;
+    width: 120px;
+    background:black;
     left: 0;
     top: 80%;
     visibility: hidden;
@@ -2240,6 +2241,8 @@ hr {
 .header-area .main-header .main-menu ul ul.submenu > li > a {
     padding: 6px 10px !important;
     font-size: 16px;
+    color: #fff;
+    font-weight: 500;
     text-transform: capitalize;
     margin: 0;
 }
@@ -7370,4 +7373,12 @@ a:hover {
 .checkbox {
     display: flex;
     align-items: center;
+}
+
+
+/* login /register icon and dropdown*/
+
+.user-icon {
+    width: 30px;
+    height: 30px;
 }
