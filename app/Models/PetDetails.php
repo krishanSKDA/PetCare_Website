@@ -5,14 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-
-
 class PetDetails extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        
         'pet_name',
         'pet_breed',
         'pet_gender',
@@ -20,10 +17,8 @@ class PetDetails extends Model
         'pet_picture',
     ];
 
-    
     protected $table = 'pet_details';
 
-    // Cast attributes to a specific data type
     protected $casts = [
         'date_of_birth' => 'date',
     ];
