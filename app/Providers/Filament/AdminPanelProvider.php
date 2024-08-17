@@ -21,6 +21,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 
+
 class AdminPanelProvider extends PanelProvider
 {
     public function panel(Panel $panel): Panel
@@ -29,6 +30,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             
+            
             ->userMenuItems([
                 MenuItem::make()
                 ->label('Vet')
@@ -36,6 +38,7 @@ class AdminPanelProvider extends PanelProvider
                 ->url('/vet')
             ])
             ->colors([
+                'primary' => Color::Blue,
                 'primary' => Color::Blue,
             ])
 
@@ -57,6 +60,7 @@ class AdminPanelProvider extends PanelProvider
             ->widgets([
                 Widgets\AccountWidget::class,
            
+           
             ])
             ->middleware([
                 EncryptCookies::class,
@@ -70,6 +74,7 @@ class AdminPanelProvider extends PanelProvider
                 DispatchServingFilamentEvent::class,
                 VerifyIsAdmin::class,
             ]);
+           
            
             
     }

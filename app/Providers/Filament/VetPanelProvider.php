@@ -29,7 +29,6 @@ class VetPanelProvider extends PanelProvider
             ->id('vet')
             ->path('vet')
             ->login()
-            ->registration()
             ->profile()
             
             ->userMenuItems([
