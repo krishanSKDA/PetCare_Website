@@ -540,6 +540,16 @@ hr {
     
    
 }
+.sticky-bar ul li #user-icon{
+    src:url("assets/img/logo/logo.png");
+}
+.sticky-bar ul ul.submenu > li > a{
+    color: #FBFCF8 !important;
+   
+} 
+.sticky-bar ul ul.submenu > li > a:hover{
+    color: green !important;
+}
 .sticky-bar a{
     color: black !important;
 }
