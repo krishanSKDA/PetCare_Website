@@ -30,7 +30,7 @@
             </div>
         </div>
         <!-- Hero Area End -->
-        <div class="about_container">
+ <div class="about_container">
     <h1 class="title">Welcome to Pet Care Center</h1>
     <p class="intro-text">
         At Pet Care, we are dedicated to providing exceptional veterinary care for your beloved furry friends. Our mission is to ensure that your dogs live long, healthy, and happy lives by offering comprehensive medical services in a compassionate and welcoming environment.
@@ -39,7 +39,7 @@
     <div class="section">
         <h2 class="subtitle">Our Journey</h2>
         <div class="content">
-            <img src="./assets/img/gallery/journey.jpg" alt="Pet Care Journey" class="image">
+            <img src="assets/img/team/journey.png" alt="Pet Care Journey" class="image">
            <div class="para-1">
            <p class="text">
                 The story of Pet Care began in 2015, with a simple vision: to create a haven for dogs where their health is nurtured with
@@ -51,19 +51,19 @@
     </div>
 
     <div class="section">
-        <h2 class="subtitle">Our Philosophy</h2>
-        <div class="content">
-        <img src="./assets/img/gallery/philosophy1.jpg" alt="Pet Care Philosophy" class="image">
-            <div class="para-1">
+    <h2 class="subtitle">Our Philosophy</h2>
+    <div class="content reverse-layout">
+        <div class="para-2">
             <p class="text">
                 We understand that dogs are more than pets; they are loyal friends and cherished family members. That's why our approach
                 to veterinary care is holistic and personalized. We focus on preventive care to keep tails wagging and provide comprehensive
                 treatments when your dog needs it the most. Our mission is to ensure every visit is stress-free and positive for both you and your pet.
             </p>
-            </div>
-            
         </div>
+        <img src="assets/img/team/philo.jpg" alt="Pet Care Philosophy" class="image">
     </div>
+</div>
+
 </div>
 
         <!-- About Details Start -->
@@ -103,56 +103,71 @@
                 </div>
             </div>
         </div>
-        <!-- About Details End -->
-        <!--? About Area Start-->
-
-        <!-- About Area End-->
+      
+        
         <!--? Team Start -->
-
-        <section class="team">
-		<div class="center">
-			<h1>Our Team</h1>
-            <p>Our team of skilled and compassionate professionals is dedicated to providing top-quality care for your pets.<br> With a blend of
-                expertise and empathy, we ensure every pet receives personalized attention and support.</p>
+        <main class="team_members">
+  <div class="team-section_about">
+    <h1>Our Team</h1>
+    <h3>Meet the experts behind Pet Care</h3>
+  </div>
+  
+  <div class="team_card-container">
+    <div class="team_card">
+      <img src="assets/img/team/vet_img01.jpg" alt="Dr. Perera">
+      <div class="card-content">
+        <h2>Dr. Perera</h2>
+        <p>Veterinary Surgeon</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
-		</div>
+      </div>
+    </div>
+    
+    <div class="team_card">
+      <img src="assets/img/team/animal.jpg" alt="Dr. Silva">
+      <div class="card-content">
+        <h2>Dr. Silva</h2>
+        <p>Animal Behaviorist</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="team_card">
+      <img src="assets/img/team/vet.jpg" alt="Dr. Fernando">
+      <div class="card-content">
+        <h2>Dr. Fernando</h2>
+        <p>Veterinary Nutritionist</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="team_card">
+      <img src="assets/img/team/vet04.jpg" alt="Dr. Jayawardena">
+      <div class="card-content">
+        <h2>Dr. Jayawardena</h2>
+        <p>Veterinary Dermatologist</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
-		<div class="team-content">
-			<div class="box">
-				<img src="./assets/img/team/1.png">
-				<h3>Nethmi</h3>
-				<h5>Artist</h5>
-				<div class="icons">
-					<a href="#"><i class="ri-twitter-fill"></i></a>
-					<a href="#"><i class="ri-facebook-box-fill"></i></a>
-					<a href="#"><i class="ri-instagram-fill"></i></a>
-				</div>
-			</div>
 
-			<div class="box">
-				<img src="./assets/img/team/2.png">
-				<h3>Silva</h3>
-				<h5>Artist</h5>
-				<div class="icons">
-					<a href="#"><i class="ri-twitter-fill"></i></a>
-					<a href="#"><i class="ri-facebook-box-fill"></i></a>
-					<a href="#"><i class="ri-instagram-fill"></i></a>
-				</div>
-			</div>
-
-			<div class="box">
-				<img src="./assets/img/team/3.png">
-				<h3>Gayani</h3>
-				<h5>Artist</h5>
-				<div class="icons">
-					<a href="#"><i class="ri-twitter-fill"></i></a>
-					<a href="#"><i class="ri-facebook-box-fill"></i></a>
-					<a href="#"><i class="ri-instagram-fill"></i></a>
-				</div>
-			</div>
-
-		</div>
-	</section>
         <!-- Team End -->
         <!--? Contact form Start -->
         <!-- <div class="contact-form-main pb-top">
