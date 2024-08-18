@@ -2171,7 +2171,7 @@ hr {
 .main-header .main-menu ul ul.submenu {
     position: absolute;
     width: 170px;
-    background: #ffffff;
+    background: #ffffff ;
     left: 0;
     top: 120%;
     visibility: hidden;
@@ -2191,7 +2191,7 @@ hr {
 .main-header .main-menu ul ul.submenu > li > a {
     padding: 6px 10px !important;
     font-size: 14px;
-    color: #0b1c39;
+    color: #cccccc;
 }
 .main-header .main-menu ul ul.submenu > li > a:hover {
     color: #c6a16e;

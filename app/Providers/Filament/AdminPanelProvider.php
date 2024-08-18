@@ -20,6 +20,8 @@ use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
+
+
 class AdminPanelProvider extends PanelProvider
 {
     public function panel(Panel $panel): Panel
@@ -27,6 +29,8 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->id('admin')
             ->path('admin')
+            
+            
             ->userMenuItems([
                 MenuItem::make()
                 ->label('Vet')
@@ -34,8 +38,19 @@ class AdminPanelProvider extends PanelProvider
                 ->url('/vet')
             ])
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Blue,
+                'primary' => Color::Blue,
             ])
+
+            // ->colors([
+            // 'primary' => Color::Blue, 
+            // 'secondary' => '#03A9F4', 
+            // 'accent' => Color::Yellow,
+            // 'background' => '#F0F0F0', 
+            // 'text' => '#333333', 
+            // ])
+            ->sidebarCollapsibleOnDesktop()
+            ->favicon(asset('assets/img/favicon.ico'))
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
@@ -44,7 +59,8 @@ class AdminPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
                 Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
+           
+           
             ])
             ->middleware([
                 EncryptCookies::class,
@@ -58,6 +74,8 @@ class AdminPanelProvider extends PanelProvider
                 DispatchServingFilamentEvent::class,
                 VerifyIsAdmin::class,
             ]);
+           
+           
             
     }
 }

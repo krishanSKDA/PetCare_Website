@@ -21,14 +21,17 @@
                                             <li><a href="{{ url('/About') }}">About</a></li>
                                             <li><a href="{{ url('/Product') }}">Product</a></li>
                                             <!-- <li><a href="{{ url('/Supplier') }}">Supplier</a></li> -->
-                                            <li><a href="/Blog">Blog</a>
-                                                <!-- <ul class="submenu">
-                                                    <li><a href="/Blog">Blog</a></li>
-                                                    <li><a href="/BlogDetails">Blog Details</a></li>
-                                                    -- <li><a href="#">Element</a></li> --
-                                                </ul> -->
-                                            </li>
+                                            <li><a href="/Blog">Blog</a></li>
                                             <li><a href="/ContactUs">Contact</a></li>
+                                            <li><a href="#" id="user-icon">
+                                        <img src="assets/img/logo/user.png" class="user-icon" alt="User Icon">
+                                    </a>
+                                    <ul class="submenu">
+                                                    <li><a href="{{ route('login') }}">Login</a></li>
+                                                    <li><a href="{{ route('register') }}">Register</a></li> 
+                                                </ul>  
+                                            </li>
+                                        </ul>
                                         </ul>
                                     </nav>
                                 </div>

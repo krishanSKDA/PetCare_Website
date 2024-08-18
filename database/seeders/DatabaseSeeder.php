@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Appointment;
 use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
@@ -16,11 +17,23 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Admin User',
-            'email' => 'admin@gmail.com',
-            'password' => Hash::make('12345678'),
-            'is_admin'=>true
-        ]);
+        // User::factory()->create([
+        //     'name' => 'Admin User',
+        //     'email' => 'admin@gmail.com',
+        //     'password' => Hash::make('12345678'),
+        //     'is_admin'=>true
+        // ]);
+        User::updateOrCreate(
+            ['email' => 'admin@gmail.com'],
+            [
+                'name' => 'Admin User',
+                'password' => Hash::make('12345678'),
+                'is_admin' => true
+            ]);
+
+        // Seed the Appointments table
+        Appointment::factory()->count(3)->create();
     }
-}
+      
+    }
+
