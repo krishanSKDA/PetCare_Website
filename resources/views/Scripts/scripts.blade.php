@@ -30,4 +30,8 @@
     <script src="./assets/js/main.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+
+    <!-- chatbox js-->
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="15386480-3d2a-4a28-8c4a-57e8feaa543b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     
