@@ -70,6 +70,7 @@ class AppointmentsController extends Controller
         $appointment->service_required=$request->service_required;
 
         if ($appointment->save()) {
+            $appointment->notify(new AppointmentReminder($appointment));
             return redirect()->back()->with('success', 'Appointment scheduled successfully!');
         } else {
             return redirect()->back()->with('error', 'There was a problem scheduling your appointment. Please try again.');
