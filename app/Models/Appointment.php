@@ -4,12 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-
-
+use Illuminate\Notifications\Notifiable;
 
 class Appointment extends Model
 {
-    use HasFactory;
+    use HasFactory,Notifiable;
 
     protected $fillable = [
         'petowner_name',
@@ -21,6 +20,10 @@ class Appointment extends Model
         'phone_number',
         'service_required',
     ];
+    public function routeNotificationForMail($notification)
+{
+    return $this->petowner_email;
+}
 
     // Cast attributes to a specific data type
     protected $casts = [
@@ -31,5 +34,10 @@ class Appointment extends Model
     // If you want to set the table name manually (optional)
     protected $table = 'appointments';
 
-   
+    public function petOwner()
+{
+    return $this->belongsTo(PetOwner::class, 'pet_owner_id');
+}
+
+
 }
