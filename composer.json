@@ -13,7 +13,9 @@
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
         "livewire/volt": "^1.6",
+        "munafio/chatify": "^1.6",
         "owenvoke/blade-fontawesome": "^2.6",
+        "pusher/pusher-php-server": "^7.2",
         "robsontenorio/mary": "^1.35"
     },
     "require-dev": {

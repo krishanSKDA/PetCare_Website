@@ -35,12 +35,19 @@ class AdminPanelProvider extends PanelProvider
                 MenuItem::make()
                 ->label('Vet')
                 ->icon('heroicon-o-cog-6-tooth') 
-                ->url('/vet')
+                ->url('/vet'),
+                MenuItem::make()
+                    ->label('Global Chat')
+                    ->icon('heroicon-s-chat-bubble-left-right')
+                    ->url('/chatify')
+
+                   
             ])
             ->colors([
                 'primary' => Color::Blue,
                 'primary' => Color::Blue,
             ])
+            
 
             // ->colors([
             // 'primary' => Color::Blue, 
