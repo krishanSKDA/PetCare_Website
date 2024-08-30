@@ -37,7 +37,7 @@
                                 </div>
                                 <div  class="header-right-btn f-right d-none d-lg-block ml-30">
                                     @if(auth()->check())
-                                    <a href="/Service" id="appointmentButton" class="header-btn">Appointment</a>
+                                    <a href="/Appointment" id="appointmentButton" class="header-btn">Appointment</a>
                                 @else
                                     <a href="{{ route('login') }}" class="header-btn">Appointment</a>
                                 @endif

@@ -27,13 +27,17 @@ Route::get('/About', function () {
 Route::get('/Service', function () {
     return view('Page.Service');
 });
-Route::post('/Service', [AppointmentsController::class, 'store'])->name('Service');
+Route::get('/Appointment', function () {
+    return view('Page.Appoinment');
+});
+Route::post('/Appointment', [AppointmentsController::class, 'store'])->name('Appointment');
 Route::get('/Blog', function () {
     return view('Page.Blog');
 });
 Route::get('/ContactUs', function () {
     return view('Page.Contact');
 });
+
 Route::get('/BlogDetails', function () {
     return view('Page.BlogDetails');
 });
@@ -100,5 +104,5 @@ Route::post('/logout', function () {
 //      ->name('send.appointment.reminder');
 
 
- Route::get('/Service', [AppointmentsController::class, 'testAuth'])->name('Service');
+ Route::get('/Appointment', [AppointmentsController::class, 'testAuth'])->name('Appointment');
 

@@ -21,7 +21,7 @@
     </header>
     <main>
         <!-- Hero Area Start -->
-        <div class="slider-area4 slider-height2 d-flex align-items-center">
+        {{-- <div class="slider-area4 slider-height2 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -39,68 +39,9 @@
     <div class="left-section">
         <img src="assets/img/logo/Newlogo.png" alt="Pet Care Logo">
     </div>
-    <div class="right-section">
-       <div class="head">
-       <h1>Welcome to Pet Care</h1>
-       <p>Schedule your pet's appointment</p>
-       </div>
-        <form id="appointment-form" method="POST" action="{{ route('Service') }}">
-            @csrf
-           <div class="content">
-           <div class="input-group">
-                <label for="owner-name">Owner's Full Name</label>
-                <input type="text" id="owner-name" name="petowner_name" required placeholder="Enter your name">
-            </div>
-            <div class="input-group">
-                <label for="pet-name">Pet's Name</label>
-                <input type="text" id="pet-name" name="pet_name" required placeholder="Enter your pet's name">
-            </div>
-           </div>
-           <div class="content">
-           <div class="input-group">
-                <label for="pet-type" >Pet Type</label>
-                <input type="text" id="pet-type" name="pet_type" required>
-            </div>
-            <div class="input-group">
-                <label for="appointment-date">Appointment Date</label>
-                <input type="date" id="appointment-date" name="appointment_date" required>
-            </div>
-           </div>
-            <div class="content">
-            <div class="input-group">
-                <label for="appointment-time">Appointment Time</label>
 
-                <input type="time" id="appointment-time" name="appointment_time" required>
-            </div>
-            <div class="input-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="petowner_email" required placeholder="Enter your Email address">
-            </div>
-            </div>
-            <div class="content">
-            <div class="input-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone_number" required placeholder="Enter your phone number">
-            </div>
-            <div class="input-group">
-                <label for="service">Service Required</label>
-                <select id="service" name="service_required" required>
-                    <option value="grooming">Grooming</option>
-                    <option value="vaccination">Vaccination</option>
-                    <option value="checkup">Checkup</option>
-                    <option value="surgery">Surgery</option>
-                </select>
-            </div>
-            </div>
-            <button id="scheduleAppointmentBtn" class="app_btn" type="submit">
-                Schedule Appointment
-            </button>
-            {{-- data-appointment-id="{{ $appointment->id }} --}}
-        </form>
-        <p>Already have an appointment? <a href="#">Check Status</a></p>
-    </div>
 </div>
-</section>
+</section> --}}
 
           <!-- End Appoinment -->
         <!--? Our Services Start -->

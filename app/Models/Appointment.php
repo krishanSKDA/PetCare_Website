@@ -19,6 +19,7 @@ class Appointment extends Model
         'petowner_email',
         'phone_number',
         'service_required',
+
     ];
     public function routeNotificationForMail($notification)
 {
@@ -28,7 +29,8 @@ class Appointment extends Model
     // Cast attributes to a specific data type
     protected $casts = [
         'appointment_date' => 'date',
-        'appointment_time' => 'string',
+        'appointment_time' => 'datetime',
+
     ];
 
     // If you want to set the table name manually (optional)

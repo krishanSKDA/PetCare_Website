@@ -92,8 +92,7 @@ class AppointmentsController extends Controller
         if (!Auth::check()) {
             return redirect()->route('login');
         }
-
-         return view('Page.Service');
+         return view('Page.Appoinment');
     }
 
     public function check()
