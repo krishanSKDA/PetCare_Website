@@ -14,7 +14,7 @@
                             <div class="menu-main d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu f-right d-none d-lg-block">
-                                    <nav> 
+                                    <nav>
                                         <ul id="navigation">
                                             <li class="home-active"><a href="/">Home</a></li>
                                             <li><a href="/Service">Services</a></li>
@@ -28,18 +28,22 @@
                                     </a>
                                     <ul class="submenu">
                                                     <li><a href="{{ route('login') }}">Login</a></li>
-                                                    <li><a href="{{ route('register') }}">Register</a></li> 
-                                                </ul>  
+                                                    <li><a href="{{ route('register') }}">Register</a></li>
+                                                </ul>
                                             </li>
                                         </ul>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div  class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="/Service" class="header-btn">Appoinments</a>
+                                    @if(auth()->check())
+                                    <a href="/Appointment" id="appointmentButton" class="header-btn">Appointment</a>
+                                @else
+                                    <a href="{{ route('login') }}" class="header-btn">Appointment</a>
+                                @endif
                                 </div>
                             </div>
-                        </div>   
+                        </div>
                         <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
@@ -49,4 +53,3 @@
             </div>
         </div>
         <!-- Header End -->
-    

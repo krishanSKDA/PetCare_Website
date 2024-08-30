@@ -13,14 +13,14 @@ return new class extends Migration
     {
         Schema::create('appointments', function (Blueprint $table) {
             $table->id();
-            $table->string('petowner_name'); 
+            $table->string('petowner_name');
             $table->string('pet_name');
             $table->string('pet_type');
             $table->date('appointment_date');
             $table->time('appointment_time');
-            $table->string('petowner_email')->unique();
+            $table->string('petowner_email');
             $table->string('phone_number');
-            $table->enum('service_required', ['Grooming', 'Vaccination', 'Checkup', 'Surgery']); 
+            $table->enum('service_required', ['Grooming', 'Vaccination', 'Checkup', 'Surgery']);
             $table->timestamps();
         });
     }

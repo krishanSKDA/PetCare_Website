@@ -7,7 +7,14 @@ use App\Livewire\PetDetailsIndex;
 use App\Livewire\PetIndex;
 use App\Http\Controllers\ProfileController;
 use App\Livewire\PurchaseIndex;
+use App\Mail\AppointmentReminderEmail;
+use App\Mail\TestEmail;
+use App\Models\Appointment;
+use App\Notifications\AppointmentReminder;
+use Google\Rpc\Context\AttributeContext\Request;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,12 +27,17 @@ Route::get('/About', function () {
 Route::get('/Service', function () {
     return view('Page.Service');
 });
+Route::get('/Appointment', function () {
+    return view('Page.Appoinment');
+});
+Route::post('/Appointment', [AppointmentsController::class, 'store'])->name('Appointment');
 Route::get('/Blog', function () {
     return view('Page.Blog');
 });
 Route::get('/ContactUs', function () {
     return view('Page.Contact');
 });
+
 Route::get('/BlogDetails', function () {
     return view('Page.BlogDetails');
 });
@@ -40,12 +52,12 @@ Route::get('/email/verify', function () {
 })->middleware('auth')->name('verification.notice');
 Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $request) {
     $request->fulfill();
- 
+
     return redirect('/home');
 })->middleware(['auth', 'signed'])->name('verification.verify');
 Route::post('/email/verification-notification', function (Request $request) {
     $request->user()->sendEmailVerificationNotification();
- 
+
     return back()->with('message', 'Verification link sent!');
 })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 
@@ -61,7 +73,7 @@ Route::resource('appointments',App\Http\Controllers\AppointmentsController::clas
 Route::resource('purchased',App\Http\Controllers\PurchasedController::class);
 Route::resource('petdetails',App\Http\Controllers\PetDetailsController::class);
 
-// email verifications 
+// email verifications
 
 Route::get('/profile', function () {
     // Only verified users may access this route...
@@ -78,7 +90,7 @@ require __DIR__.'/auth.php';
 // MaryUi Dashboard routes
 Route::get('/dashboards', DashboardIndex::class)->name('dashboard.index');
 Route::get('/appointments', AppointmentsIndex::class)->name('appointments.index');
-Route::get('/petdetails', PetDetailsIndex::class)->name('pet-details.index');
+Route::get('/petdetails', PetDetailsIndex::class)->name('pet-details-index');
 Route::get('/purchased', PurchaseIndex::class)->name('purchase.index');
 
 
@@ -87,3 +99,10 @@ Route::post('/logout', function () {
     Auth::logout();
     return redirect('/'); // Redirect to the dashboard after logout
 })->name('logout');
+
+// Route::get('/send-appointment-reminder/{appointment}', [AppointmentsController::class, 'sendReminder'])
+//      ->name('send.appointment.reminder');
+
+
+ Route::get('/Appointment', [AppointmentsController::class, 'testAuth'])->name('Appointment');
+
