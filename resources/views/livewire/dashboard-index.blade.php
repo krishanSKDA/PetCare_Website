@@ -18,15 +18,15 @@
     icon="o-arrow-trending-down"
     tooltip-left="Ops!" />
  
-<x-mary-stat
-    title="Sales"
-    description="This month"
-    value="22.124"
-    icon="o-arrow-trending-down"
-    class="text-orange-500"
-    color="text-pink-500"
-    tooltip-right="Gosh!" /> 
-    
+    <x-mary-stat
+    title="Current Date & Time"
+    description="{{ now()->format('l, F j, Y') }}"
+    value="{{ now()->format('h:i A') }}"
+    icon="o-clock"
+    class="text-green-500"
+    color="text-blue-500"
+    tooltip="This is the current date and time!" />
+
     
     </div>
     <!-- Chart Container -->
@@ -35,9 +35,5 @@
         
     </div>
 
-    <!-- Buttons Below the Chart -->
-    <div class="flex space-x-2">
-        <x-mary-button label="Randomize" wire:click="randomize" class="btn-primary text-sm px-4 py-2" spinner />
-        <x-mary-button label="Switch" wire:click="switch" class="text-sm px-4 py-2" spinner />
-    </div>
+   
 </div>

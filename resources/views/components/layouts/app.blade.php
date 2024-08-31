@@ -27,8 +27,10 @@
 
         {{-- Right side actions --}}
         <x-slot:actions>
-            <x-mary-button label="Messages" icon="o-envelope" link="###" class="btn-ghost btn-sm" responsive />
-            <x-mary-button label="Notifications" icon="o-bell" link="###" class="btn-ghost btn-sm" responsive />
+            <x-mary-button label="Chat" icon="o-chat-bubble-bottom-center-text" link="" class="btn-ghost btn-sm" tooltip="Click Here Chat With Others" responsive />
+            <x-mary-button label="View-QrCode" icon="o-qr-code" link="{{ route('livewire.qrcode') }}" class="btn-ghost btn-sm" responsive />     
+            <x-mary-button label="Back-To-Home" icon="o-home" link="{{ route('home') }}" class="btn-ghost btn-sm" responsive />
+
         </x-slot:actions>
     </x-mary-nav>
 
@@ -58,10 +60,12 @@
      {{-- Activates the menu item when a route matches the `link` property --}}
      <x-mary-menu activate-by-route>
          <x-mary-menu-item title="Dashboard" icon="o-home" link="/dashboards" />
+         <x-mary-menu-item title="Petowner" icon="o-user" link="/petowner" />
          <x-mary-menu-item title="Appointment"  icon="o-calendar" link="/appointments" />
-         <x-mary-menu-item title="PetDetails" icon="o-shopping-bag" link="/petdetails" />
-         <x-mary-menu-item title="Purchased" icon="o-document" link="/purchased" />
 
+         <x-mary-menu-item title="Purchased" icon="o-shopping-bag" link="/purchased" />
+         <x-mary-menu-item title="PetDetails" icon="o-clipboard-document-check" link="/petdetails" />
+         
      </x-mary-menu>
 
  </x-slot:sidebar>

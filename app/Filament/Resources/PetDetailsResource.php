@@ -3,15 +3,13 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\PetDetailsResource\Pages;
-use App\Filament\Resources\PetDetailsResource\RelationManagers;
 use App\Models\PetDetails;
+use App\Models\PetOwner;
 use Filament\Forms;
-use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Forms\Form;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\DatePicker;
@@ -29,6 +27,11 @@ class PetDetailsResource extends Resource
             ->schema([
                 Forms\Components\Section::make('Pet Information')
                 ->schema([
+                    Select::make('pet_owner_id')
+                    ->label('Pet Owner')
+                    ->options(PetOwner::all()->pluck('name', 'id'))
+                    ->required(),
+                    
                     TextInput::make('pet_name')
                         ->label('Pet Name')
                         ->required()
@@ -63,27 +66,28 @@ class PetDetailsResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('pet_name')
-                ->sortable()
-                ->searchable(),
+                    ->sortable()
+                    ->searchable(),
                 
-            Tables\Columns\TextColumn::make('pet_breed')
-                ->sortable()
-                ->searchable(),
+                Tables\Columns\TextColumn::make('pet_breed')
+                    ->sortable()
+                    ->searchable(),
                 
-            Tables\Columns\TextColumn::make('pet_gender')
-                ->sortable()
-                ->searchable(),
+                Tables\Columns\TextColumn::make('pet_gender')
+                    ->sortable()
+                    ->searchable(),
                 
-            Tables\Columns\TextColumn::make('date_of_birth')
-                ->date()
-                ->sortable()
-                ->searchable(),
+                Tables\Columns\TextColumn::make('date_of_birth')
+                    ->date()
+                    ->sortable()
+                    ->searchable(),
                 
-            Tables\Columns\ImageColumn::make('pet_picture')
-                ->sortable(),
+                Tables\Columns\ImageColumn::make('pet_picture')
+                    ->sortable(),
+
             ])
             ->filters([
-                //
+                // Add filters if necessary
             ])
             ->actions([
                 Tables\Actions\ActionGroup::make([
@@ -102,7 +106,7 @@ class PetDetailsResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+            // Define any relationships if needed
         ];
     }
 
