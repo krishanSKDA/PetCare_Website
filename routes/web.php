@@ -1,15 +1,16 @@
 <?php
 
-use App\Http\Controllers\AppointmentsController;
 use App\Livewire\AppointmentsIndex;
 use App\Livewire\DashboardIndex;
 use App\Livewire\PetDetailsIndex;
-use App\Livewire\PetIndex;
+use App\Livewire\PetOwnerIndex;
 use App\Http\Controllers\ProfileController;
 use App\Livewire\PurchaseIndex;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QrCodeController;
 
+Route::middleware('auth')->get('/livewire/qr-code', [QrCodeController::class, 'showQRCode'])->name('livewire.qrcode');
 
 Route::get('/', function () {
     return view('Page.Home');
@@ -80,7 +81,7 @@ Route::get('/dashboards', DashboardIndex::class)->name('dashboard.index');
 Route::get('/appointments', AppointmentsIndex::class)->name('appointments.index');
 Route::get('/petdetails', PetDetailsIndex::class)->name('pet-details.index');
 Route::get('/purchased', PurchaseIndex::class)->name('purchase.index');
-
+Route::get('/petowner', PetOwnerIndex::class)->name('pet-owner.index');
 
 // routes/web.php
 Route::post('/logout', function () {

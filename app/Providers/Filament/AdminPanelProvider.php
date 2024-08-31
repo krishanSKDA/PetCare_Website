@@ -38,8 +38,7 @@ class AdminPanelProvider extends PanelProvider
                 ->url('/vet')
             ])
             ->colors([
-                'primary' => Color::Blue,
-                'primary' => Color::Blue,
+                'primary' => Color::Blue, 
             ])
 
             // ->colors([
