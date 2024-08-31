@@ -16,7 +16,9 @@ class PetDetailsIndex extends Component
     public $pet_name;
     public $pet_breed;
     public $pet_gender;
+
     public $genderOptions = [['id' => 'Male', 'name' => 'Male'], ['id' => 'Female', 'name' => 'Female']];
+
     public $date_of_birth;
     public $pet_picture;
     public $search = '';
@@ -24,7 +26,7 @@ class PetDetailsIndex extends Component
     protected $rules = [
         'pet_name' => 'required|max:255',
         'pet_breed' => 'required|max:255',
-       // 'pet_gender' => 'required|in:Male,Female',
+
         'date_of_birth' => 'required|date',
         'pet_picture' => 'nullable|image|max:1024', // 1MB Max
     ];
@@ -65,6 +67,7 @@ class PetDetailsIndex extends Component
     {
         $this->validate();
 
+
         $data = [
             'pet_name' => $this->pet_name,
             'pet_breed' => $this->pet_breed,
@@ -81,6 +84,7 @@ class PetDetailsIndex extends Component
             PetDetails::find($this->modelId)->update($data);
         } else {
             // Create new pet
+
             PetDetails::create($data);
         }
 
@@ -101,6 +105,7 @@ class PetDetailsIndex extends Component
     }
 
     public function confirmPetDeletion($id)
+
     {
         $pet = PetDetails::find($id);
 
@@ -125,5 +130,23 @@ class PetDetailsIndex extends Component
         $this->resetCreateForm();
         $this->dispatch('pet-deleted');
         session()->flash('success', 'Pet deleted successfully.');
+
     }
+}
+
+public function deletePet()
+{
+    $pet = PetDetails::find($this->modelId);
+    if (!$pet) {
+        session()->flash('error', 'Pet not found.');
+        return;
+    }
+
+    $pet->delete();
+    $this->confirmingPetDeletion = false;
+    $this->resetCreateForm();
+    $this->dispatch('pet-deleted');
+    session()->flash('success', 'Pet deleted successfully.');
+}
+
 }

@@ -14,17 +14,17 @@
 <body class="font-sans antialiased">
     {{-- The navbar with `sticky` and `full-width` --}}
     <x-mary-nav sticky full-width>
- 
+
         <x-slot:brand>
             {{-- Drawer toggle for "main-drawer" --}}
-            <label for="main-drawer" class="lg:hidden mr-3">
+            <label for="main-drawer" class="mr-3 lg:hidden">
                 <x-mary-icon name="o-bars-3" class="cursor-pointer" />
             </label>
- 
+
             {{-- Brand --}}
             <img src="{{ asset('assets/img/logo/Newlogo.png')}}" class="h-10 w-auti">
         </x-slot:brand>
- 
+
         {{-- Right side actions --}}
         <x-slot:actions>
             <x-mary-button label="Chat" icon="o-chat-bubble-bottom-center-text" link="" class="btn-ghost btn-sm" tooltip="Click Here Chat With Others" responsive />
@@ -36,7 +36,7 @@
 
      {{-- The main content with `full-width` --}}
      <x-mary-main with-nav full-width>
- 
+
  {{-- This is a sidebar that works also as a drawer on small screens --}}
  {{-- Notice the `main-drawer` reference here --}}
  <x-slot:sidebar drawer="main-drawer" collapsible class="bg-base-200">
@@ -62,10 +62,12 @@
          <x-mary-menu-item title="Dashboard" icon="o-home" link="/dashboards" />
          <x-mary-menu-item title="Petowner" icon="o-user" link="/petowner" />
          <x-mary-menu-item title="Appointment"  icon="o-calendar" link="/appointments" />
+
          <x-mary-menu-item title="Purchased" icon="o-shopping-bag" link="/purchased" />
          <x-mary-menu-item title="PetDetails" icon="o-clipboard-document-check" link="/petdetails" />
          
      </x-mary-menu>
+
  </x-slot:sidebar>
 
  {{-- The `$slot` goes here --}}

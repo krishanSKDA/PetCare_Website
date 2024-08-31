@@ -36,7 +36,11 @@ class VetPanelProvider extends PanelProvider
                 ->label('Admin')
                 ->icon('heroicon-o-cog-6-tooth') 
                 ->url('/admin')
-                ->visible(fn(): bool=>auth() ->user()->is_admin)
+                ->visible(fn(): bool=>auth() ->user()->is_admin),
+                MenuItem::make()
+                    ->label('Global Chat')
+                    ->icon('heroicon-s-chat-bubble-left-right')
+                    ->url('/chatify')
             ])
             ->colors([
                 'primary' => '#006600',
