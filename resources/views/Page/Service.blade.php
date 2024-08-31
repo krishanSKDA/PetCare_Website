@@ -20,8 +20,8 @@
         <!-- Header End -->
     </header>
     <main>
-        <!-- Hero Area Start -->
-        {{-- <div class="slider-area4 slider-height2 d-flex align-items-center">
+        Hero Area Start
+        <div class="slider-area4 slider-height2 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -33,15 +33,10 @@
             </div>
         </div>
         <!-- Hero Area End -->
-         <!-- Book Appointment -->
-  <section class="appointment">
-         <div class="appointment_container">
-    <div class="left-section">
-        <img src="assets/img/logo/Newlogo.png" alt="Pet Care Logo">
-    </div>
+
 
 </div>
-</section> --}}
+</section> 
 
           <!-- End Appoinment -->
         <!--? Our Services Start -->
