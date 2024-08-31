@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('vaccinations', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('pet_detail_id')->nullable()->constrained('pet_details')->onDelete('cascade');
             $table->string('vaccine_name')->nullable();
             $table->date('vaccination_exp_date')->nullable();
             $table->string('vaccine_manufacture')->nullable();
