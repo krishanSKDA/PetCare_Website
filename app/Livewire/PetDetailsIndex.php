@@ -16,17 +16,16 @@ class PetDetailsIndex extends Component
     public $pet_name;
     public $pet_breed;
     public $pet_gender;
-
-    public $genderOptions = [['id' => 'Male', 'name' => 'Male'], ['id' => 'Female', 'name' => 'Female']];
-
     public $date_of_birth;
     public $pet_picture;
     public $search = '';
 
+    public $genderOptions = [['id' => '', 'name' => 'Select Gender'],['id' => 'Male', 'name' => 'Male'], ['id' => 'Female', 'name' => 'Female']];
+
     protected $rules = [
         'pet_name' => 'required|max:255',
         'pet_breed' => 'required|max:255',
-
+        'pet_gender' => 'required|in:Male,Female',
         'date_of_birth' => 'required|date',
         'pet_picture' => 'nullable|image|max:1024', // 1MB Max
     ];
@@ -67,30 +66,27 @@ class PetDetailsIndex extends Component
     {
         $this->validate();
 
-
         $data = [
             'pet_name' => $this->pet_name,
             'pet_breed' => $this->pet_breed,
             'pet_gender' => $this->pet_gender,
             'date_of_birth' => $this->date_of_birth,
             'pet_picture' => $this->pet_picture ? $this->pet_picture->store('pet_pictures', 'public') : null,
-            'pet_owner_id' => auth()->id(), 
-            
+            'pet_owner_id' => auth()->id(),
         ];
-       // dd(auth()->id());
 
         if ($this->modelId) {
             // Update existing pet
             PetDetails::find($this->modelId)->update($data);
+            session()->flash('success', 'Pet updated successfully!');
         } else {
             // Create new pet
-
             PetDetails::create($data);
+            session()->flash('success', 'Pet created successfully!');
         }
 
         $this->closeModal();
         $this->resetCreateForm();
-        $this->dispatch('pet-saved');
     }
 
     public function edit($id)
@@ -105,7 +101,6 @@ class PetDetailsIndex extends Component
     }
 
     public function confirmPetDeletion($id)
-
     {
         $pet = PetDetails::find($id);
 
@@ -128,25 +123,6 @@ class PetDetailsIndex extends Component
         $pet->delete();
         $this->confirmingPetDeletion = false;
         $this->resetCreateForm();
-        $this->dispatch('pet-deleted');
         session()->flash('success', 'Pet deleted successfully.');
-
     }
-}
-
-public function deletePet()
-{
-    $pet = PetDetails::find($this->modelId);
-    if (!$pet) {
-        session()->flash('error', 'Pet not found.');
-        return;
-    }
-
-    $pet->delete();
-    $this->confirmingPetDeletion = false;
-    $this->resetCreateForm();
-    $this->dispatch('pet-deleted');
-    session()->flash('success', 'Pet deleted successfully.');
-}
-
 }
