@@ -24,41 +24,33 @@ class PetDetailsResource extends Resource
     public static function form(Form $form): Form
     {
         return $form
-            ->schema([
-                Forms\Components\Section::make('Pet Information')
-                ->schema([
-                    Select::make('pet_owner_id')
-                    ->label('Pet Owner')
-                    ->options(PetOwner::all()->pluck('name', 'id'))
-                    ->required(),
-                    
-                    TextInput::make('pet_name')
-                        ->label('Pet Name')
-                        ->required()
-                        ->maxLength(255),
-                    
-                    TextInput::make('pet_breed')
-                        ->label('Pet Breed')
-                        ->required()
-                        ->maxLength(255),
-                    
-                    Select::make('pet_gender')
-                        ->label('Pet Gender')
-                        ->options([
-                            'Male' => 'Male',
-                            'Female' => 'Female',
-                        ])
-                        ->required(),
-                    
-                    DatePicker::make('date_of_birth')
-                        ->label('Date of Birth')
-                        ->required(),
-                    
-                    FileUpload::make('pet_picture')
-                        ->label('Pet Picture')
-                        ->image(),
-                ]),
-            ]);
+        ->schema([
+            Forms\Components\TextInput::make('pet_name')
+                ->required()
+                ->maxLength(255),
+                
+            Forms\Components\TextInput::make('pet_breed')
+                ->required()
+                ->maxLength(255),
+                
+            Forms\Components\Select::make('pet_gender')
+                ->options([
+                    'Male' => 'Male',
+                    'Female' => 'Female',
+                ])
+                ->required(),
+                
+            Forms\Components\DatePicker::make('date_of_birth')
+                ->required(),
+                
+            Forms\Components\FileUpload::make('pet_picture')
+                ->image(),
+                
+            Forms\Components\Select::make('pet_owner_id') 
+                ->label('Pet Owner')
+                ->relationship('petOwner', 'petowners_name') 
+                ->required()
+        ]);
     }
 
     public static function table(Table $table): Table
@@ -84,6 +76,10 @@ class PetDetailsResource extends Resource
                 
                 Tables\Columns\ImageColumn::make('pet_picture')
                     ->sortable(),
+
+                Tables\Columns\TextColumn::make('petOwner.petowners_name') 
+                    ->label('Pet Owner')
+                    ->sortable(),    
 
             ])
             ->filters([
