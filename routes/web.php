@@ -6,14 +6,9 @@ use App\Livewire\PetDetailsIndex;
 use App\Livewire\PetOwnerIndex;
 use App\Http\Controllers\ProfileController;
 use App\Livewire\PurchaseIndex;
-use App\Mail\AppointmentReminderEmail;
-use App\Mail\TestEmail;
-use App\Models\Appointment;
-use App\Notifications\AppointmentReminder;
 use Google\Rpc\Context\AttributeContext\Request;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QrCodeController;
 use App\Http\Controllers\AppointmentsController;
@@ -24,6 +19,7 @@ Route::middleware('auth')->get('/livewire/qr-code', [QrCodeController::class, 's
 Route::get('/', function () {
     return view('Page.Home');
 })->name('home');
+
 Route::get('/About', function () {
     return view('Page.About');
 });

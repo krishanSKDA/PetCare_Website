@@ -70,7 +70,6 @@
          <x-mary-menu-item title="Dashboard" icon="o-home" link="/dashboards" />
          <x-mary-menu-item title="Petowner" icon="o-user" link="/petowner" />
          <x-mary-menu-item title="Appointment"  icon="o-calendar" link="/appointments" />
-
          <x-mary-menu-item title="Purchased" icon="o-shopping-bag" link="/purchased" />
          <x-mary-menu-item title="PetDetails" icon="o-clipboard-document-check" link="/petdetails" />
          
