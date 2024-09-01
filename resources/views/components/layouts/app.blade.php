@@ -27,9 +27,17 @@
 
         {{-- Right side actions --}}
         <x-slot:actions>
-            <x-mary-button label="Chat" icon="o-chat-bubble-bottom-center-text" link="" class="btn-ghost btn-sm" tooltip="Click Here Chat With Others" responsive />
+            <x-mary-button label="Chat" icon="o-chat-bubble-bottom-center-text" link="{{ route('chatify') }}"  class="btn-ghost btn-sm" tooltip="Click Here Chat With Others" responsive />
             <x-mary-button label="View-QrCode" icon="o-qr-code" link="{{ route('livewire.qrcode') }}" class="btn-ghost btn-sm" responsive />     
-            <x-mary-button label="Back-To-Home" icon="o-home" link="{{ route('home') }}" class="btn-ghost btn-sm" responsive />
+            <a href="{{ url('/') }}" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium text-sm rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <br>
+    <!-- Home Icon -->
+    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 2.5L2 9h2v9h4v-6h4v6h4V9h2L10 2.5z" />
+    </svg>
+    Back to Home
+</a>
+
 
         </x-slot:actions>
     </x-mary-nav>

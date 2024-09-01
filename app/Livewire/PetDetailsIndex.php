@@ -134,19 +134,5 @@ class PetDetailsIndex extends Component
     }
 }
 
-public function deletePet()
-{
-    $pet = PetDetails::find($this->modelId);
-    if (!$pet) {
-        session()->flash('error', 'Pet not found.');
-        return;
-    }
 
-    $pet->delete();
-    $this->confirmingPetDeletion = false;
-    $this->resetCreateForm();
-    $this->dispatch('pet-deleted');
-    session()->flash('success', 'Pet deleted successfully.');
-}
 
-}

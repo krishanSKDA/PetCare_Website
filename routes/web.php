@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QrCodeController;
+use App\Http\Controllers\AppointmentsController;
+
 
 Route::middleware('auth')->get('/livewire/qr-code', [QrCodeController::class, 'showQRCode'])->name('livewire.qrcode');
 
@@ -94,7 +96,6 @@ Route::get('/appointments', AppointmentsIndex::class)->name('appointments.index'
 Route::get('/petdetails', PetDetailsIndex::class)->name('pet-details-index');
 Route::get('/purchased', PurchaseIndex::class)->name('purchase.index');
 Route::get('/petowner', PetOwnerIndex::class)->name('pet-owner.index');
-
 // routes/web.php
 Route::post('/logout', function () {
     Auth::logout();
