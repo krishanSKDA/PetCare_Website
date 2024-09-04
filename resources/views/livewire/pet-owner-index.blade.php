@@ -1,5 +1,5 @@
 <div>
-<x-mary-header title="PetOwner-Details" subtitle="Explore Dashboard Features on Mobile..">
+<x-mary-header title="PetOwner-Details" subtitle="where you can easily access and manage all the essential information about your pets and their care.">
 </x-mary-header>
 
 

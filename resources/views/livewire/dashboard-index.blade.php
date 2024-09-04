@@ -1,5 +1,6 @@
 <div class="p-4 space-y-4">
-    <x-mary-header title="Dashboard" subtitle="Explore Dashboard Features on Mobile.." />
+    <x-mary-header title="Dashboard" subtitle="
+Welcome to your dashboard, where you can effortlessly track, analyze, and manage all your key data in one place." />
     
     <div class="flex space-x-2">
         <x-mary-stat

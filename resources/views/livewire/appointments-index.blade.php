@@ -4,7 +4,7 @@
     <div class="p-4">
         <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
             <thead>
-                <tr class="bg-gray-100 text-gray-700 border-b">
+                <tr class="bg-gray-100 text-black border-b">
                     <th class="py-2 px-4 text-left">Pet Name</th>
                     <th class="py-2 px-4 text-left">Service Required</th>
                     <th class="py-2 px-4 text-left">Appointment Date</th>
@@ -15,7 +15,7 @@
             </thead>
             <tbody>
                 @foreach($appointments as $appointment)
-                    <tr class="border-b hover:bg-gray-50">
+                    <tr class="border-b hover:bg-gray-50 text-black">
                         <td class="py-2 px-4">{{ $appointment->pet_name }}</td>
                         <td class="py-2 px-4">{{ $appointment->service_required }}</td>
                         <td class="py-2 px-4">{{ $appointment->appointment_date }}</td>
