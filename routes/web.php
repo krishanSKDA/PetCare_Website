@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QrCodeController;
 use App\Http\Controllers\AppointmentsController;
 
+
+Route::get('/user/appointments', AppointmentsIndex::class)->name('user.appointments')->middleware('auth');
+
+
 Route::middleware('auth')->get('/livewire/qr-code', [QrCodeController::class, 'showQRCode'])->name('livewire.qrcode');
 
 Route::get('/', function () {
