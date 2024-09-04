@@ -21,7 +21,7 @@
     <x-mary-stat
     title="Current Date & Time"
     description="{{ now()->format('l, F j, Y') }}"
-    value="{{ now()->format('h:i A') }}"
+    value="{{ now()->setTimezone('Asia/Colombo')->format('h:i A') }}"
     icon="o-clock"
     class="text-green-500"
     color="text-blue-500"

@@ -103,7 +103,7 @@
                             Schedule Appointment
                         </button>
                     </form>
-                    <p>Already have an appointment? <a href="/appointments">Check Status</a></p>
+                    <p>Already have an appointment? <a href="/appointments" style="color:red">Check Status</a></p>
                 </div>
             </div>
         </section>

@@ -20,7 +20,7 @@
         <!-- Header End -->
     </header>
     <main>
-        Hero Area Start
+        <!-- Hero Area Start -->
         <div class="slider-area4 slider-height2 d-flex align-items-center">
             <div class="container">
                 <div class="row">
@@ -60,7 +60,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Regular Check-ups</a></h5>
                                 <p>Routine health exams to  monitor your pet’s well-being.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Vaccination</a></h5>
                                 <p>Immunizations to protect  against common diseases </p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Dental Care</a></h5>
                                 <p>Teeth cleaning and oral health checks.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Nutrition Concealing </a></h5>
                                 <p>Dial plans and advice  to ensure proper  nutrition.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Surgical Service </a></h5>
                                 <p>Comprehensive surgical care, routine to emergency and compassionate.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <div class="services-cap">
                                 <h5><a href="#">Specialized care </a></h5>
                                 <p>Treatment for chronic conditions  and specialized veterinary care.</p>
-                                <a href="" style="color:black">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                     </div>
