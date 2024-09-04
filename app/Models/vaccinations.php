@@ -31,8 +31,11 @@ protected $casts = [
     'vaccination_exp_date' => 'datetime',
 ];
 
+
     public function petDetails()
     {
         return $this->belongsTo(PetDetails::class, 'pet_detail_id');
     }
+
+    
 }

@@ -6,6 +6,7 @@ use App\Livewire\PetDetailsIndex;
 use App\Livewire\PetOwnerIndex;
 use App\Http\Controllers\ProfileController;
 use App\Livewire\PurchaseIndex;
+use App\Livewire\VaccinationsIndex;
 use Google\Rpc\Context\AttributeContext\Request;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Support\Facades\Auth;
@@ -93,8 +94,9 @@ require __DIR__.'/auth.php';
 Route::get('/dashboards', DashboardIndex::class)->name('dashboard.index');
 Route::get('/appointments', AppointmentsIndex::class)->name('appointments.index');
 Route::get('/petdetails', PetDetailsIndex::class)->name('pet-details-index');
-Route::get('/purchased', PurchaseIndex::class)->name('purchase.index');
+//Route::get('/purchased', PurchaseIndex::class)->name('purchase.index');
 Route::get('/petowner', PetOwnerIndex::class)->name('pet-owner.index');
+Route::get('/vaccinations', VaccinationsIndex::class)->name('vaccinations.index');
 
 // routes/web.php
 Route::post('/logout', function () {
