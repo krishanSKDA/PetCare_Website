@@ -53,7 +53,8 @@
                     <div class="totalPrice">$900</div>
                 </div>
             </div>
-            <button class="buttonCheckout">CHECKOUT</button>
+            <a href="/sucess"><button class="buttonCheckout" >CHECKOUT</button></a>
+            
             </div>
     </div>
 </div>
