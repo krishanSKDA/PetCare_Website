@@ -1,0 +1,3 @@
+[submodule "PetCare_Website"]
+	path = PetCare_Website
+	url = https://github.com/krishanSKDA/PetCare_Website.git
