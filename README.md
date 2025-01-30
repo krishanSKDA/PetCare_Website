@@ -8,7 +8,7 @@ Pet Profiles: Maintain detailed profiles for each pet, including vaccination sch
 Informative Resources: Access articles and guides on pet health, grooming, nutrition, and general care.
 Mobile-Responsive Design: Enjoy seamless browsing and interaction across all devices, ensuring a user-friendly experience.
 
-Tech Stack:
+#Tech Stack:
 Frontend: HTML, CSS, JavaScript
 Backend: PHP, Laravel, MySQL, MongoDB, Node.js
 Tools/Libraries: Jetstream, Breeze, MayUI, Filament
